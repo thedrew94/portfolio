@@ -355,6 +355,7 @@ img:not([src]) {
     rgb(0, 0, 0, 0.8) 80%,
     rgb(0, 0, 0, 1) 100%
   );
+  object-fit: cover;
 }
 
 .hero_description {
@@ -428,6 +429,7 @@ img:not([src]) {
 }
 
 .skills_list {
+  max-width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -502,7 +504,7 @@ img:not([src]) {
 }
 
 .txt_spc {
-  margin: 40px 0;
+  margin: 60px 0;
   text-align: center;
   color: var(--secondary);
 }
